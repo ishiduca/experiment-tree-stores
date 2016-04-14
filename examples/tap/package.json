@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "experiment-tree-stores": "file:../..",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "reactify": "^1.1.1"
+  },
+  "scripts": {
+    "build": "browserify src/main.js -o public/bundle.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}

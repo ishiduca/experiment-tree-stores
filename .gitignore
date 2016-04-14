@@ -1,0 +1,9 @@
+node_modules/
+*.swp
+*~
+npm-debug.log
+.DS_Store
+examples/*/node_modules/
+examples/*/npm-debug.log
+examples/*/public/bundle.js
+examples/*/public/js/bundle.js
