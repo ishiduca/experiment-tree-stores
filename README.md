@@ -1,4 +1,4 @@
-# experimant-of-tree-store
+# experiment-of-tree-store
 
 Reactに寄せた ~~Flux/~~Store の実験のための実装
 
